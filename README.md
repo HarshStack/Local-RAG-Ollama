@@ -3,11 +3,9 @@
 
 A fast, private, and fully–local Retrieval‑Augmented Generation (RAG) system built with:
 
-Ollama for local LLM inference
-
-Sentence‑Transformers for lightning‑fast embeddings
-
-FAISS for dense vector search
+-Ollama for local LLM inference.
+-Sentence‑Transformers for lightning‑fast embeddings
+-FAISS for dense vector search
 
 BM25 for keyword / exact‑match search
 
@@ -140,6 +138,7 @@ Perfect for secure/air‑gapped systems.
 
 📂 Project Structure
 <img width="955" height="531" alt="image" src="https://github.com/user-attachments/assets/08bb699d-fc11-4036-a5c1-6b0b2dc90904" />
+
 
 
 
