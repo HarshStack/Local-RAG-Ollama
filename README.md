@@ -1,4 +1,4 @@
-Local RAG Engine (FAISS + BM25 + Ollama)
+#Local RAG Engine (FAISS + BM25 + Ollama)
 
 A fast, private, and fully–local Retrieval‑Augmented Generation (RAG) system built with:
 
@@ -132,4 +132,15 @@ Indexes even large PDFs in seconds.
 ✔ Works Offline
 
 Perfect for secure/air‑gapped systems.
+
+
+🛠 How It Works (Technical Architecture)
+<img width="866" height="442" alt="image" src="https://github.com/user-attachments/assets/c4651ac8-aeb3-4db6-87c4-58e586f2b46c" />
+
+📂 Project Structure
+<img width="955" height="531" alt="image" src="https://github.com/user-attachments/assets/08bb699d-fc11-4036-a5c1-6b0b2dc90904" />
+
+
+
+
 
