@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Local RAG with Ollama</h1>
+<h1 align="center"> Local RAG with Ollama</h1>
 <h2>FAISS + BM25 + Sentence Transformers</h2>
 
 A fast, private, and fully–local Retrieval‑Augmented Generation (RAG) system built with:
@@ -140,6 +140,7 @@ Perfect for secure/air‑gapped systems.
 
 📂 Project Structure
 <img width="955" height="531" alt="image" src="https://github.com/user-attachments/assets/08bb699d-fc11-4036-a5c1-6b0b2dc90904" />
+
 
 
 
