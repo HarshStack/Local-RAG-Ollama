@@ -25,29 +25,29 @@ Everything runs offline on your machine.
 
 Most RAG systems depend on cloud services (OpenAI Embeddings, Pinecone, Weaviate, etc.), which:
 
-❌ cost money
+- cost money
 
-❌ require API keys
+-  require API keys
 
-❌ need internet
+-  need internet
 
-❌ raise privacy concerns (especially for medical/legal/use‑case-sensitive docs)
+-  raise privacy concerns (especially for medical/legal/use‑case-sensitive docs)
 
 --------------------------------------------------------------------------------------------------
 
 This project solves that:
 
-✔ 100% offline
+-  100% offline
 
-✔ No external API calls
+-  No external API calls
 
-✔ No data leaves your machine
+-  No data leaves your machine
 
-✔ Super fast (1–3 seconds end‑to‑end)
+-  Super fast (1–3 seconds end‑to‑end)
 
-✔ Works on Windows
+-  Works on Windows
 
-✔ Ideal for medical, financial, private PDFs, and more
+-  Ideal for medical, financial, private PDFs, and more
 
 --------------------------------------------------------------------------------------------------
 
@@ -69,19 +69,19 @@ You can drop any PDF into ./data/ — such as:
 
 The system then:
 
-1️⃣ Extracts text from each page
+1️. Extracts text from each page
 (using PyMuPDF, fast and reliable)
 
-2️⃣ Splits text into overlapping chunks
+2️ Splits text into overlapping chunks
 (great for long documents)
 
-3️⃣ Builds a dense index
+3️. Builds a dense index
 using all-MiniLM-L6-v2 (fast, CPU‑friendly)
 
-4️⃣ Builds a sparse BM25 index
+4️. Builds a sparse BM25 index
 for exact term matching (IDs, numbers, abbreviations)
 
-5️⃣ At query time:
+5️. At query time:
 
 - FAISS retrieves semantically related chunks
 
@@ -89,7 +89,7 @@ for exact term matching (IDs, numbers, abbreviations)
 
 - Results are merged into a hybrid top‑k set
 
-6️⃣ ChatOllama generates grounded responses
+6️. ChatOllama generates grounded responses
 
 → Every answer comes directly from your documents
 
@@ -99,37 +99,37 @@ for exact term matching (IDs, numbers, abbreviations)
 
 🔥 Features
 
-✔ Hybrid Retrieval (Dense + Sparse)
+1. Hybrid Retrieval (Dense + Sparse)
 
 - Dense vectors understand meaning
 
 - BM25 catches exact phrases, symptoms, values, names, abbreviations
 
-✔ Local LLM via Ollama
+2. Local LLM via Ollama
 
 - Default model: llama3.2:1b
 (You can switch to any Ollama model)
 
-✔ Streaming Answers
+3. Streaming Answers
 
 - Responses appear token-by-token for instant interaction.
 
-✔ Zero Cost
+4. Zero Cost
 
 - No Pinecone,
 - No OpenAI,
 - No subscriptions,
 - No API keys
 
-✔ Privacy-Friendly
+5. Privacy-Friendly
 
 - Your PDFs stay completely on your device.
 
-✔ Fast Ingestion
+6. Fast Ingestion
 
 - Indexes even large PDFs in seconds.
 
-✔ Works Offline
+7. Works Offline
 
 - Perfect for secure/air‑gapped systems.
 
@@ -142,6 +142,7 @@ for exact term matching (IDs, numbers, abbreviations)
 
 📂 Project Structure
 <img width="955" height="531" alt="image" src="https://github.com/user-attachments/assets/08bb699d-fc11-4036-a5c1-6b0b2dc90904" />
+
 
 
 
